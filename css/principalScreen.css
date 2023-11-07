@@ -1,23 +1,7 @@
-/*HEADER*/
-header {
-    display: flex;
-    justify-content: space-between;
-    color: white;
-    font-size: 0.8em;
-    padding: 10px 15px;
-    margin-bottom: 100px;
+main {
+    background-image: url("https://r2.community.samsung.com/t5/image/serverpage/image-id/3584148iFED8BB89E1D5CE26?v=v2");
+    background-size: cover;
 }
-
-.connection {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-}
-
-.connection img{
-    height: 0.8em;
-}
-
 
 /*METEO*/
 .meteo {
