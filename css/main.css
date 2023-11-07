@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: #1c1c2e;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    background-image: url("https://r2.community.samsung.com/t5/image/serverpage/image-id/3584148iFED8BB89E1D5CE26?v=v2");
+    background-size: cover;
+    height: 617px;
+    width: 309px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+}

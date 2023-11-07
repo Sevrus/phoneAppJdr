@@ -1,0 +1,124 @@
+/*HEADER*/
+header {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 0.8em;
+    padding: 10px 15px;
+    margin-bottom: 100px;
+}
+
+.connection {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.connection img{
+    height: 0.8em;
+}
+
+
+/*METEO*/
+.meteo {
+    text-align: center;
+    color: white;
+}
+
+.meteo__city {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.meteo i {
+    font-size: 3.5em;
+    margin-bottom: 10px;
+}
+
+.meteo__temperature {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+/*SERVICES*/
+.services {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #fff;
+    font-size: 0.6em;
+    margin-top: 100px;
+}
+
+.services__gallery,
+.services__galaxy-store,
+.services__play-store,
+.services__google-chrome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.services__gallery img {
+    width: 45px;
+}
+
+.services__galaxy-store__frame,
+.services__play-store__frame,
+.services__google-chrome__frame {
+    width: 40px;
+    height: 40px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services__galaxy-store__frame {
+    background-color: magenta;
+}
+
+.services__play-store__frame {
+    background-color: #fff;
+}
+
+.services__google-chrome__frame {
+    background-color: #fff;
+}
+
+.services__galaxy-store__frame img,
+.services__play-store__frame img,
+.services__google-chrome__frame img {
+    width: 25px;
+}
+
+/*ROUND*/
+.rounds {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0;
+    gap: 10px;
+}
+
+.rounds__round {
+    width: 7px;
+    height: 7px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+/*UTILITIES*/
+.utilities {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.utilities img {
+    width: 45px;
+    cursor: pointer;
+}
+

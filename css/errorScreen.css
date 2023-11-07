@@ -1,0 +1,13 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    background-color: aliceblue;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    color: red;
+}

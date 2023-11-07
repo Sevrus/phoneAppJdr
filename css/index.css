@@ -1,0 +1,67 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-pin {
+    color: #fff;
+    text-align: center;
+}
+
+.main-pin h2 {
+    font-size: 1em;
+}
+
+#enter-pin {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    display: none;
+    color: #fff;
+    text-align: center;
+    width: 191px;
+    font-size: 1.5em;
+}
+
+.main-pin p {
+    font-size: 0.8em;
+}
+
+.main-pin__digits {
+    margin-top: 20px;
+    display: grid;
+    grid: 1fr 1fr 1fr / 1fr 1fr 1fr;
+    grid-row-gap: 10px;
+    grid-column-gap: 18px;
+}
+
+.main-pin__digits__digit,
+.main-pin__digits__ok,
+.main-pin__digits__back {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.main-pin__digits__digit {
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, .3);
+    flex-direction: column;
+}
+
+.main-pin__digits__digit--number {
+    font-size: 1.4em;
+}
+
+.main-pin__digits__digit--letters {
+    font-size: 0.5em;
+}
+
+.main-pin__empreinte img{
+    width: 50px;
+    margin-top: 30px;
+}

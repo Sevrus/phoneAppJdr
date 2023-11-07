@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Écran principal du téléphone</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/principalScreen.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.12/css/weather-icons.min.css">
+</head>
+<body>
+<main>
+    <header>
+        <div class="hours"></div>
+        <div class="connection">
+            <img src="images/antenna.svg" alt="Icône réseau">
+            <span class="connection__percent">30%</span>
+            <img src="images/battery.svg" alt="Icône batterie">
+        </div>
+    </header>
+    <section class="meteo">
+        <h1 class="meteo__city"></h1>
+        <i class="wi"></i>
+        <h2>
+            <span class="meteo__temperature"></span> °C
+            <br>
+            (<span class="meteo__description"></span>)
+        </h2>
+    </section>
+    <section class="services">
+        <div class="services__gallery">
+            <a href="gallery.html"><img src="images/gallery.svg" alt="Icône de galerie"></a>
+            <span>Galerie</span>
+        </div>
+        <div class="services__galaxy-store">
+            <div class="services__galaxy-store__frame">
+                <img src="images/basket.svg" alt="Icône du Galaxy Store">
+            </div>
+            <span>Galaxy Store</span>
+        </div>
+        <div class="services__play-store">
+            <div class="services__play-store__frame">
+                <img src="images/google_play.svg" alt="Icône du Play Store">
+            </div>
+            <span>Play Store</span>
+        </div>
+        <div class="services__google-chrome">
+            <div class="services__google-chrome__frame">
+                <img src="images/chrome.svg" alt="Icône Google Chrome">
+            </div>
+            <span>Chrome</span>
+        </div>
+    </section>
+    <div class="rounds">
+        <div class="rounds__round"></div>
+        <div class="rounds__round"></div>
+        <div class="rounds__round"></div>
+        <div class="rounds__round"></div>
+    </div>
+    <section class="utilities">
+        <a href="appels.html"><img src="images/telephone.svg" alt="Icône d'appel"></a>
+        <a href="sms.html"><img src="images/sms.svg" alt="Icône SMS"></a>
+        <img src="images/browser.svg" alt="Icône navigateur">
+        <img src="images/camera.svg" alt="Icône appareil photo">
+    </section>
+</main>
+
+<script src="script/principal.js"></script>
+</body>
+</html>
