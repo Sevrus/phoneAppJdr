@@ -1,22 +1,39 @@
 main {
     background-color: #010101;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    margin-bottom: 30px;
+    font-size: 2em;
+    text-align: center;
+    color: #fff;
 }
 
 .sms {
     color: #fff;
     padding: 0 20px;
+    flex-grow: 1;
+    overflow-y: scroll;
+    scrollbar-width: thin;
 }
 
-.sms h1 {
-    margin-bottom: 50px;
-    font-size: 2em;
-    text-align: center;
+::-webkit-scrollbar {
+    width: 12px;
 }
 
 .sms__container {
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+hr {
+    margin: 0 70px;
+    border: none;
+    height: 1px;
+    background-color: darkgrey;
 }
 
 .sms__container__item {
@@ -36,6 +53,7 @@ main {
 
 .sms__container__item__text h2 {
     font-size: 0.9em;
+    color: #fff;
 }
 
 .sms__container__item__text p,
