@@ -1,3 +1,45 @@
 main {
     background-color: #010101;
 }
+
+.sms {
+    color: #fff;
+    padding: 0 20px;
+}
+
+.sms h1 {
+    margin-bottom: 50px;
+    font-size: 2em;
+    text-align: center;
+}
+
+.sms__container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sms__container__item {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.sms__container__item__avatar img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.sms__container__item__text {
+    flex: 1;
+}
+
+.sms__container__item__text h2 {
+    font-size: 0.9em;
+}
+
+.sms__container__item__text p,
+.sms__container__item__date span {
+    font-size: 0.8em;
+    color: darkgrey;
+}
