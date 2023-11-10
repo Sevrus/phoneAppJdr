@@ -1,0 +1,100 @@
+main {
+    background-color: #010101;
+    display: flex;
+    flex-direction: column;
+}
+
+main header {
+    margin-bottom: 0;
+}
+
+.conversation-title {
+    background-color: #767676;
+    text-align: center;
+    padding: 10px 0;
+    color: white;
+}
+
+.conversation-title__number {
+    font-size: 0.7em;
+}
+
+.conversation-sms {
+    background-color: #fff;
+    padding: 0 20px;
+    flex-grow: 1;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+h3.conversation-sms__day:nth-child(1) {
+    margin-top: 10px;
+}
+
+.conversation-sms__day {
+    font-size: 0.7em;
+    text-align: center;
+    color: #868686;
+    clear: both;
+    position: relative;
+}
+
+.conversation-sms__day::before,
+.conversation-sms__day::after {
+    content: "";
+    width: 30px;
+    height: 1px;
+    background-color: #868686;
+    position: absolute;
+    top: 50%;
+}
+
+.conversation-sms__day::before {
+    left: 7%;
+}
+
+.conversation-sms__day::after {
+    right: 7%;
+}
+
+.conversation-sms__days {
+    margin: 10px 0;
+}
+
+.conversation-sms__days img {
+    width: 30px;
+    margin-right: 5px;
+    float: left;
+}
+
+.conversation-sms__days__sms-received,
+.conversation-sms__days__sms-sent {
+    max-width: 60%;
+    padding: 7px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.conversation-sms__days__sms-received {
+    background-color: #aed6f1;
+}
+
+.conversation-sms__days__sms-sent {
+    background-color: #ffffac;
+    margin-left: auto;
+}
+
+.conversation-sms__days__sms-received__text,
+.conversation-sms__days__sms-sent__text {
+    font-size: 0.8em;
+}
+
+.conversation-sms__days__sms-received__hours,
+.conversation-sms__days__sms-sent__hours {
+    font-size: 0.6em;
+    color: #868686;
+}

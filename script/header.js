@@ -5,7 +5,7 @@ const updateClock = () => {
     const tokyoTime = date.toLocaleTimeString('fr-FR', {
         timeZone: 'Asia/Tokyo',
         hour: '2-digit',
-        minute: '2-digit',
+        minute: '2-digit'
     });
 
     screenHours.textContent = `${tokyoTime}`;

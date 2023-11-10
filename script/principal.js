@@ -36,6 +36,8 @@ const displayWeather = (data) => {
   document.querySelector('i.wi').className = weatherIcons[conditions];
 }
 
+// getWeather();
+
 
 
 
