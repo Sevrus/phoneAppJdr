@@ -1,0 +1,58 @@
+main {
+    background-color: #010101;
+    display: flex;
+    flex-direction: column;
+}
+
+main header {
+    margin-bottom: 0;
+}
+
+.call-list-title {
+    background-color: #767676;
+    text-align: center;
+    padding: 10px 0;
+    color: white;
+}
+
+.call-list {
+    background-color: #fff;
+    padding: 0 20px;
+    flex-grow: 1;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+h3.call-list__day:nth-child(1) {
+    margin-top: 10px;
+}
+
+.call-list__day {
+    font-size: 0.7em;
+    text-align: center;
+    color: #868686;
+    clear: both;
+    position: relative;
+}
+
+.call-list__day::before,
+.call-list__day::after {
+    content: "";
+    width: 40px;
+    height: 1px;
+    background-color: #868686;
+    position: absolute;
+    top: 50%;
+}
+
+.call-list__day::before {
+    left: 7%;
+}
+
+.call-list__day::after {
+    right: 7%;
+}
