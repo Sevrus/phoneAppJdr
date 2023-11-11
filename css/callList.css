@@ -27,7 +27,7 @@ main header {
     width: 12px;
 }
 
-h3.call-list__day:nth-child(1) {
+.call-list h3 {
     margin-top: 10px;
 }
 
@@ -42,7 +42,7 @@ h3.call-list__day:nth-child(1) {
 .call-list__day::before,
 .call-list__day::after {
     content: "";
-    width: 40px;
+    width: 50px;
     height: 1px;
     background-color: #868686;
     position: absolute;
@@ -55,4 +55,35 @@ h3.call-list__day:nth-child(1) {
 
 .call-list__day::after {
     right: 7%;
+}
+
+.call-list__day__days {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+div.call-list__day__days:nth-child(90) {
+    margin-bottom: 10px;
+}
+
+
+.call-list__day__days img {
+    width: 30px;
+}
+
+.call-list__day__days__contact-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.call-list__day__days__contact-details__phone {
+    font-size: 0.9em;
+}
+
+.call-list__day__days__contact-details__name,
+.call-list__day__days__hours{
+    font-size: 0.8em;
 }
