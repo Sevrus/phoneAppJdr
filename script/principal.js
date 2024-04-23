@@ -1,3 +1,5 @@
+import openWeatherMap from "./apiKeys.js";
+
 const weatherIcons = {
     'Thunderstorm': 'wi wi-thunderstorm',
     'Drizzle': 'wi wi-sleet',
@@ -15,11 +17,9 @@ const capitalize = (str) => {
 }
 
 async function getWeather() {
-    const meteo = await fetch('https://api.openweathermap.org/data/2.5/weather?q=Tokyo&appid=b347e169f18399286933d386e1e72a79&units=metric&lang=fr')
+    const meteo = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=Tokyo&appid=${openWeatherMap}&units=metric&lang=fr`)
         .then(response => response.json())
         .then(json => json);
-
-    console.log(meteo)
 
     displayWeather(meteo);
 }
