@@ -91,5 +91,5 @@ $RECYCLE.BIN/
 *.lnk
 
 ### Api file
-apiKeys.js
+script/apiKeys.js
 
