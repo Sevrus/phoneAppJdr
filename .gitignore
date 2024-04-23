@@ -64,6 +64,9 @@ fabric.properties
 # Android studio 3.1+ serialized cache file
 .idea/caches/build_file_checksums.ser
 
+# Material theme XML
+.idea/material_theme_project_new.xml
+
 ### Windows template
 # Windows thumbnail cache files
 Thumbs.db
@@ -91,5 +94,5 @@ $RECYCLE.BIN/
 *.lnk
 
 ### Api file
-apiKeys.js
+script/apiKeys.js
 
